@@ -1,0 +1,26 @@
+version: '3.6'
+services:
+  database:
+    image: postgres
+    ports:
+      - 127.0.0.1:5432:5432
+    environment:
+      POSTGRES_USER: album_uploader
+      POSTGRES_DB: album_uploader
+      POSTGRESS_PASSWORD: album_uploader
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 127.0.0.1:8000:8000
+    volumes:
+      - type: bind
+        source: .
+        target: /usr/src/app/
+    environment:
+      POSTGRES_USER: album_uploader
+      POSTGRES_DB: album_uploader
+      POSTGRESS_PASSWORD: album_uploader
+    links:
+      - 'database'
