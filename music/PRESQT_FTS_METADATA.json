@@ -1,8 +1,8 @@
 {
-    "context": {
+    "fartz": {
         "globus": "https://docs.globus.org/api/transfer/overview/"
     },
-    "actions": [
+    "poop": [
         {
             "id": "1b9faaff-4f80-4b8b-8029-f31e748a04ea",
             "actionDateTime": "2019-10-22 18:59:40.199802+00:00",
