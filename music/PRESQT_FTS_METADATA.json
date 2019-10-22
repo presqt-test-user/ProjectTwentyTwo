@@ -1,0 +1,74 @@
+{
+    "context": {
+        "globus": "https://docs.globus.org/api/transfer/overview/"
+    },
+    "actions": [
+        {
+            "id": "1b9faaff-4f80-4b8b-8029-f31e748a04ea",
+            "actionDateTime": "2019-10-22 18:59:40.199802+00:00",
+            "actionType": "resource_download",
+            "sourceTargetName": "github",
+            "sourceUsername": "presqt-test-user",
+            "destinationTargetName": "Local Machine",
+            "destinationUsername": null,
+            "files": [
+                {
+                    "sourcePath": "ProjectTwentyTwo/Dockerfile",
+                    "title": "Dockerfile",
+                    "sourceHashes": {},
+                    "extra": {
+                        "commit_hash": "b99c19bf9471d3c5586b1d478aea922e3d041d0a",
+                        "size": 234,
+                        "url": "https://api.github.com/repos/presqt-test-user/ProjectTwentyTwo/contents/Dockerfile?ref=master",
+                        "html_url": "https://github.com/presqt-test-user/ProjectTwentyTwo/blob/master/Dockerfile",
+                        "git_url": "https://api.github.com/repos/presqt-test-user/ProjectTwentyTwo/git/blobs/b99c19bf9471d3c5586b1d478aea922e3d041d0a",
+                        "download_url": "https://raw.githubusercontent.com/presqt-test-user/ProjectTwentyTwo/master/Dockerfile",
+                        "type": "file",
+                        "_links": {
+                            "self": "https://api.github.com/repos/presqt-test-user/ProjectTwentyTwo/contents/Dockerfile?ref=master",
+                            "git": "https://api.github.com/repos/presqt-test-user/ProjectTwentyTwo/git/blobs/b99c19bf9471d3c5586b1d478aea922e3d041d0a",
+                            "html": "https://github.com/presqt-test-user/ProjectTwentyTwo/blob/master/Dockerfile"
+                        }
+                    },
+                    "failedFixityInfo": [
+                        {
+                            "NewGeneratedHash": "5119d51a71c88b55739e589fef0f80bb",
+                            "algorithmUsed": "md5",
+                            "reasonFixityFailed": "Either a Source Hash was not provided or the source hash algorithm is not supported."
+                        }
+                    ],
+                    "destinationPath": "/ProjectTwentyTwo/Dockerfile",
+                    "destinationHashes": {}
+                },
+                {
+                    "sourcePath": "ProjectTwentyTwo/README.md",
+                    "title": "README.md",
+                    "sourceHashes": {},
+                    "extra": {
+                        "commit_hash": "ba0521893da0bddca5f881de00d8279cd72998bf",
+                        "size": 18,
+                        "url": "https://api.github.com/repos/presqt-test-user/ProjectTwentyTwo/contents/README.md?ref=master",
+                        "html_url": "https://github.com/presqt-test-user/ProjectTwentyTwo/blob/master/README.md",
+                        "git_url": "https://api.github.com/repos/presqt-test-user/ProjectTwentyTwo/git/blobs/ba0521893da0bddca5f881de00d8279cd72998bf",
+                        "download_url": "https://raw.githubusercontent.com/presqt-test-user/ProjectTwentyTwo/master/README.md",
+                        "type": "file",
+                        "_links": {
+                            "self": "https://api.github.com/repos/presqt-test-user/ProjectTwentyTwo/contents/README.md?ref=master",
+                            "git": "https://api.github.com/repos/presqt-test-user/ProjectTwentyTwo/git/blobs/ba0521893da0bddca5f881de00d8279cd72998bf",
+                            "html": "https://github.com/presqt-test-user/ProjectTwentyTwo/blob/master/README.md"
+                        }
+                    },
+                    "failedFixityInfo": [
+                        {
+                            "NewGeneratedHash": "f66c3aa788a7abd5182b9c528c61bba4",
+                            "algorithmUsed": "md5",
+                            "reasonFixityFailed": "Either a Source Hash was not provided or the source hash algorithm is not supported."
+                        }
+                    ],
+                    "destinationPath": "/ProjectTwentyTwo/README.md",
+                    "destinationHashes": {}
+                }
+            ]
+        }
+    ]
+}
