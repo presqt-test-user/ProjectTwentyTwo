@@ -2,6 +2,25 @@
     "allEnhancedKeywords": [],
     "actions": [
         {
+            "id": "6da866ce-4bc7-4a09-b94c-0861a6856ce2",
+            "actionDateTime": "2020-05-12 18:21:20.286497+00:00",
+            "actionType": "transfer_enhancement",
+            "sourceTargetName": "github",
+            "sourceUsername": "presqt-test-user",
+            "destinationTargetName": "github",
+            "destinationUsername": "presqt-test-user",
+            "keywordEnhancements": {
+                "initialKeywords": [],
+                "enhancedKeywords": [],
+                "enhancer": "scigraph"
+            },
+            "files": {
+                "created": [],
+                "updated": [],
+                "ignored": []
+            }
+        },
+        {
             "id": "f800569b-6c05-42e6-b7fc-5dca4c2231e7",
             "actionDateTime": "2020-05-12 18:07:34.261787+00:00",
             "actionType": "transfer_enhancement",
